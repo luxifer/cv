@@ -1,0 +1,21 @@
+{
+  "name": "cv",
+  "version": "0.0.1",
+  "authors": [
+    "Florent Viel <fviel@wanadev.fr>"
+  ],
+  "license": "MIT",
+  "homepage": "http://florentviel.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "*",
+    "font-awesome": "*"
+  }
+}
