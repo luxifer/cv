@@ -11,6 +11,17 @@ module.exports = function(grunt) {
       '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>;' +
       ' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %> */\n',
     // Task configuration.
+    less: {
+      production: {
+        options: {
+          paths: ["assets/less"],
+          cleancss: true
+        },
+        files: {
+          "assets/css/app.css": "assets/less/app.less"
+        }
+      }
+    },
     concat: {
       options: {
         banner: '<%= banner %>',
@@ -62,6 +73,22 @@ module.exports = function(grunt) {
           }
         ]
       }
+    },
+    watch: {
+      css: {
+        files: ['assets/css/*.css'],
+        tasks: ['concat:dist_css', 'cssmin'],
+        options: {
+          spawn: false,
+        },
+      },
+      less: {
+        files: ['assets/less/*.less'],
+        tasks: ['less'],
+        options: {
+          spawn: false,
+        },
+      }
     }
   });
 
@@ -70,8 +97,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-css');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-less');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task.
-  grunt.registerTask('default', ['concat', 'uglify', 'cssmin', 'copy']);
+  grunt.registerTask('default', ['less', 'concat', 'uglify', 'cssmin', 'copy']);
 
 };
