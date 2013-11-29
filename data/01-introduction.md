@@ -6,6 +6,6 @@ Florent Viel
 ### Adresse
 Lyon
 ### Mail
-[Contact](http://florentviel.com/contact/)
+[Contact](#contact)
 ### Blog
 [http://blog.luxifer.fr](http://blog.luxifer.fr)
