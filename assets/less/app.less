@@ -1,19 +1,63 @@
-h1, h2, h3, h4, h5, h6 { 
-    font-family: 'Economica', sans-serif; 
-    font-weight: bold; 
+body { 
+    font-family: 'Raleway', sans-serif;
     color: #333;
-    text-transform: uppercase; 
 }
 
-body { 
-    font-family: 'Raleway', sans-serif; 
-    color: #333; 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 3px 0;
+}
+
+h1, h2, h4, h5, h6 {
+    font-family: 'Economica', sans-serif;
+}
+
+h2, h5, h6 {
+    color: #333;
 }
 
 h1 {
     background-color: #333;
     color: white;
     text-indent: -2px;
-    line-height: 0.67;
+    line-height: 0.66;
     font-size: 48px;
+    margin-top: 40px;
+    &:first-child {
+        margin-top: 0;
+    }
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 32px;
+}
+
+h3 {
+    margin-top: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    &#fullname {
+        font-size: 40px;
+        padding: 10px 0px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+h4 {
+    color: #999;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+#bio p {
+    text-align: justify;
+}
+
+#photo img {
+    width: 100%;
 }
