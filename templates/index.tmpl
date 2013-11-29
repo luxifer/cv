@@ -13,15 +13,35 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-md-4 col-lg-4 col-sm-4">
-          <div class="row">
-
+        <div class="col-xs-12 col-md-4 col-sm-4">
+          <div role="complementary" itemscope itemtype="http://data-vocabulary.org/Person">
+            <div id="photo">
+              <img src="http://florentviel.com/wp-content/themes/wp-bootstrap/images/moi.jpg" alt="Photo de Florent Viel" itemprop="photo" /><br />
+              <img src="http://florentviel.com/wp-content/themes/wp-bootstrap/images/photo-base.png" />
+            </div>
+            <div>
+              <h3 itemprop="name" id="fullname">Florent Viel</h3>
+            </div>
+            <div id="bio">
+              <p>
+                <span itemprop="title">Développeur et Chef de projet</span> chez <span itemprop="affiliation">Wanadev</span>. J'habite &agrave; <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address"><span itemprop="locality">Lyon</span> dans le <span itemprop="region">Rh&ocirc;ne</span></span>. J'ai obtenu un DUT en Informatique en Juin 2010. Je suis passionné de nouvelles technologies. En veille permanente sur le web, je suis toujours à l'affut des nouveautés qui sortent dans le monde de la programmation web, du design et des startups.
+              </p>
+            </div>
+            <div id="social">
+              <ul class="list-unstyled">
+                <li><a href="http://twitter.com/florent_viel" target="_blank"><i class="fa fa-fw fa-2x fa-twitter"></i> florent_viel</a></li>
+                <li><a href="http://facebook.com/luxifer666" target="_blank"><i class="fa fa-fw fa-2x fa-facebook"></i> luxifer666</a></li>
+                <li><a href="http://www.linkedin.com/in/florentviel" target="_blank"><i class="fa fa-fw fa-2x fa-linkedin"></i> florentviel</a></li>
+                <li><a href="https://plus.google.com/+FlorentViel/posts" rel="author" target="_blank"><i class="fa fa-fw fa-2x fa-google-plus"></i> Florent Viel</a></li>
+                <li><a href="#contact"><i class="fa fa-fw fa-2x fa-envelope"></i> Contact</a></li>
+                <li><a href="https://github.com/luxifer" target="_blank"><i class="fa fa-fw fa-2x fa-github"></i> luxifer</a></li>
+                <li><a href="http://blog.luxifer.fr" itemprop="url" target="_blank"><i class="fa fa-fw fa-2x fa-link"></i> Blog</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="col-xs-12 col-md-8 col-lg-8 col-sm-8">
-          <div class="row">
-            {{.}}
-          </div>
+        <div class="col-xs-12 col-md-8 col-sm-8">
+          {{.}}
         </div>
       </div>
     </div>
