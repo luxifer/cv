@@ -1,4 +1,4 @@
-/*! cv - v0.0.1 - 2013-11-28
+/*! cv - v0.0.1 - 2013-11-29
 * Copyright (c) 2013 ; Licensed  */
 /*!
  * Bootstrap v3.0.2 by @fat and @mdo
@@ -8437,3 +8437,4 @@ td.visible-print {
   content: "\f196";
 }
 
+h1,h2,h3,h4,h5,h6{font-family:Economica,sans-serif;font-weight:700;color:#333;text-transform:uppercase}body{font-family:Raleway,sans-serif;color:#333}h1{background-color:#333;color:#fff;text-indent:-2px;line-height:.67;font-size:48px}
