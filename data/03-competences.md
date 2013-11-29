@@ -1,3 +1,4 @@
+# Compétences
 ## Web
 ### PHP
 Maîtrise du framework **Symfony** 1.4 et amateur sur Symfony 2. Je connais les principes du MVC. Code aisément maintenable et adaptable à toutes tailles d'infrastructures.

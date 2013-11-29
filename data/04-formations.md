@@ -1,3 +1,4 @@
+# Formations
 ## DUT Informatique
 ### Université Lyon 1
 #### 2010
