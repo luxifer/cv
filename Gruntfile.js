@@ -75,16 +75,9 @@ module.exports = function(grunt) {
       }
     },
     watch: {
-      css: {
-        files: ['assets/css/*.css'],
-        tasks: ['concat:dist_css', 'cssmin'],
-        options: {
-          spawn: false,
-        },
-      },
       less: {
         files: ['assets/less/*.less'],
-        tasks: ['less'],
+        tasks: ['css'],
         options: {
           spawn: false,
         },
@@ -102,5 +95,7 @@ module.exports = function(grunt) {
 
   // Default task.
   grunt.registerTask('default', ['less', 'concat', 'uglify', 'cssmin', 'copy']);
+  grunt.registerTask('css', ['less', 'concat:dist_css', 'cssmin']);
+  grunt.registerTask('js', ['concat:dist_js', 'uglify']);
 
 };
