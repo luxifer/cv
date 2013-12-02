@@ -30,7 +30,8 @@ module.exports = function(grunt) {
       dist_js: {
         src: [
           'bower_components/jquery/jquery.js',
-          'bower_components/bootstrap/dist/js/bootstrap.js'
+          'bower_components/bootstrap/dist/js/bootstrap.js',
+          'assets/js/app.js'
         ],
         dest: 'public/js/<%= pkg.name %>.js'
       },
@@ -78,6 +79,13 @@ module.exports = function(grunt) {
       less: {
         files: ['assets/less/*.less'],
         tasks: ['css'],
+        options: {
+          spawn: false,
+        },
+      },
+      js: {
+        files: ['assets/js/*.js'],
+        tasks: ['js'],
         options: {
           spawn: false,
         },

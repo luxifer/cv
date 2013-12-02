@@ -1,4 +1,4 @@
-/*! cv - v0.0.1 - 2013-11-29
+/*! cv - v0.0.1 - 2013-12-02
 * Copyright (c) 2013 ; Licensed  */
 /*!
  * jQuery JavaScript Library v2.0.3
@@ -10832,3 +10832,12 @@ if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery"
   })
 
 }(jQuery);
+
+$('.contact').on('click', function(e) {
+    e.preventDefault();
+    var form = $(this).closest('form');
+
+    $.post("/contact", form.serialize(), function(data) {
+        $('#contact').modal('hide');
+    });
+});
