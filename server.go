@@ -2,7 +2,6 @@ package main
 
 import (
     "bytes"
-    "fmt"
     "github.com/codegangsta/martini"
     "github.com/codegangsta/martini-contrib/form"
     "github.com/codegangsta/martini-contrib/render"
@@ -40,8 +39,6 @@ func main() {
         if r == nil {
             return 200, "ok"
         }
-
-        fmt.Println(r)
 
         return 500, "ko"
     })
