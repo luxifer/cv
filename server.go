@@ -29,7 +29,7 @@ func main() {
     m.Post("/contact", form.Form(&Contact{}), func(contact *Contact) (int, string) {
         sg := sendgrid.NewSendGridClient(os.Getenv("SENDGRID_USER"), os.Getenv("SENDGRID_KEY"))
         message := sendgrid.NewMail()
-        message.AddTo("florent.viel69@gmail.com")
+        message.AddTo(os.Getenv("SENDGRID_EMAIL"))
         message.AddSubject(contact.Object)
         message.AddText(contact.Content)
         message.AddFrom(contact.From)
