@@ -15,19 +15,25 @@ import (
 )
 
 func main() {
-	m := martini.Classic()
+	m := martini.New()
+
+	m.Use(martini.Logger())
+	m.Use(martini.Recovery())
 	m.Use(render.Renderer("templates"))
+
 	if martini.Env == martini.Dev {
 		m.Use(martini.Static("public"))
 	}
 
 	content := parseMarkdown("data")
 
-	m.Get("/", func(r render.Render) {
+	r := martini.NewRouter()
+
+	r.Get("/", func(r render.Render) {
 		r.HTML(200, "index", template.HTML(content))
 	})
 
-	m.Post("/contact", binding.Bind(Contact{}), func(contact Contact) (int, string) {
+	r.Post("/contact", binding.Bind(Contact{}), func(contact Contact) (int, string) {
 		body := fmt.Sprintf("%s\n\nEnvoyé depuis http://florentviel.com", contact.Content)
 		sg := sendgrid.NewSendGridClient(os.Getenv("SENDGRID_USER"), os.Getenv("SENDGRID_KEY"))
 		message := sendgrid.NewMail()
@@ -45,6 +51,7 @@ func main() {
 		return 500, "ko"
 	})
 
+	m.Action(r.Handle)
 	m.Run()
 }
 
