@@ -19,7 +19,7 @@ func main() {
 
 	m.Use(martini.Logger())
 	m.Use(martini.Recovery())
-	m.Use(render.Renderer("templates"))
+	m.Use(render.Renderer())
 
 	if martini.Env == martini.Dev {
 		m.Use(martini.Static("public"))
