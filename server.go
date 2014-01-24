@@ -25,12 +25,13 @@ func main() {
 		m.Use(martini.Static("public"))
 	}
 
-	content := parseMarkdown("data")
+	content := concatData("data")
+	markdown := parseMarkdown(content)
 
 	r := martini.NewRouter()
 
 	r.Get("/", func(r render.Render) {
-		r.HTML(200, "index", template.HTML(content))
+		r.HTML(200, "index", template.HTML(markdown))
 	})
 
 	r.Post("/contact", binding.Bind(Contact{}), func(contact Contact) (int, string) {
@@ -61,7 +62,7 @@ type Contact struct {
 	Content string `form:"content" required`
 }
 
-func parseMarkdown(dir string) string {
+func concatData(dir string) bytes.Buffer {
 	var content bytes.Buffer
 
 	filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
@@ -81,6 +82,10 @@ func parseMarkdown(dir string) string {
 		return nil
 	})
 
+	return content
+}
+
+func parseMarkdown(content bytes.Buffer) string {
 	markdown := blackfriday.MarkdownBasic(content.Bytes())
 
 	return string(markdown)
