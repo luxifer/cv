@@ -4,7 +4,7 @@
 
 ### PHP
 
-J'ai commencé avec le framework Symfony `1.4`, depuis j'utilise principalement la version 2 de ce framework. Autant pour mes propres projets que pour les projets de mon travail. Je code uniquement en orienté objet, en utilisant principalement la composition. J'ai développé des API RESTful avec le microframework **Silex**, qui est basé sur les composants de Symfony.
+J'ai commencé avec le framework **Symfony** 1.4, depuis j'utilise principalement la version 2 de ce framework. Autant pour mes propres projets que pour les projets de mon travail. Je code uniquement en orienté objet, en utilisant principalement la composition. J'ai développé des API RESTful avec le microframework **Silex**, qui est basé sur les composants de Symfony.
 
 ### HTML & CSS
 
@@ -34,7 +34,7 @@ Je suis plutôt novice dans ce langage, j'ai tout de même développé un worker
 
 ### SQL
 
-Je connais les principales bases de données avec des compétences sur **MySQL** et PostgreSQL. Je fais beaucoup d'administration de base de donnée pour le site Kozikaza, qui est un site qui grandit très rapidement et pour lequel il faut constament adapter le modèle de donnée.
+Je connais les principales bases de données avec des compétences sur **MySQL** et PostgreSQL. Je fais beaucoup d'administration de base de données pour le site Kozikaza, qui est un site qui grandit très rapidement et pour lequel il faut constament adapter le modèle de données.
 
 ### NoSQL
 
@@ -44,13 +44,13 @@ Utilisation de la base de données MongoDB.
 
 ### Solr
 
-J'ai mis en place **Solr** sur Kozikaza pour afficher les documents créés en base de donnée. Le système sert les documents demandé sur les pages du site tandis que la base de donnée sert de persistence.
+J'ai mis en place **Solr** sur Kozikaza pour afficher les documents créés en base de données. Le système sert les documents demandé sur les pages du site tandis que la base de données sert de persistence.
 
 ## Systèmes d'exploitation
 
 ### Linux
 
-Maitrise des distributions basées sur **Debian** / Ubuntu, **Archlinux** et Fedora / RedHat. Je fais beaucoup d'administration système sur debian pour le site Kozikaza.
+Maitrise des distributions basées sur **Debian** / Ubuntu, **Archlinux** et Fedora / RedHat. Je fais beaucoup d'administration système sur debian pour le site Kozikaza. J'utilise de plus en plus **Docker** pour déployer mes applications, tester mes développements, ou mettre en place un environnement de développement.
 
 ### Windows
 
@@ -64,4 +64,4 @@ J'utilise couramment **Jenkins** CI pour contrôler la qualité du code et exéc
 
 ### Gestion de projet
 
-J'utilise **Redmine** pour la gestion de mes projets en entreprise. Pour mes projets j’utilise soit le système d'issue de **GitHub** si le projet est open source, soit une installation personnelle de **GitLab**. J'utilise aussi beaucoup **Trello** pour la gestion de mes projets personnels ainsi que certains projets professionnels.
+J'utilise **Redmine** pour la gestion de mes projets en entreprise. Pour mes projets personnels j’utilise soit le système d'issues de **GitHub** si le projet est open source, soit une installation personnelle de **GitLab**. J'utilise aussi beaucoup **Trello** pour la gestion de mes projets personnels ainsi que certains projets professionnels.

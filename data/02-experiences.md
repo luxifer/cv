@@ -1,10 +1,18 @@
 # Expériences
 
+## Développeur PHP
+
+### Xotelia - Grenoble (38)
+
+#### Mai 2014 - Aujourd'hui
+
+Je travaille sur un outil de gestion de canaux de ventes pour les petits et moyens établissements ayant des chambres à louer. [Xotelia](http://www.xotelia.com/)
+
 ## Lead Developer Symfony 2
 
 ### Wanadev - Lyon (69)
 
-#### Août 2011 - Aujourd'hui
+#### Août 2011 - Avril 2014
 
 Je suis développeur dans cette agence web lyonnaise depuis août 2011. Je suis en charge du développement du site [Kozikaza.com](http://www.kozikaza.com). Je suis en permanence en contact avec mes clients pour planifier et développer les nouvelles évolutions continuelles du site.
 
