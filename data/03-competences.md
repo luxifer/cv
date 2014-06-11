@@ -34,7 +34,7 @@ Je suis plutôt novice dans ce langage, j'ai tout de même développé un worker
 
 ### SQL
 
-Je connais les principales bases de données avec des compétences sur **MySQL** et PostgreSQL. Je fais beaucoup d'administration de base de données pour le site Kozikaza, qui est un site qui grandit très rapidement et pour lequel il faut constament adapter le modèle de données.
+Je connais les principales bases de données avec des compétences sur **MySQL** et PostgreSQL. Je fais beaucoup d'administration de base de données pour le site Kozikaza, qui est un site qui grandit très rapidement et pour lequel il faut constamment adapter le modèle de données.
 
 ### NoSQL
 
@@ -44,7 +44,7 @@ Utilisation de la base de données MongoDB.
 
 ### Solr
 
-J'ai mis en place **Solr** sur Kozikaza pour afficher les documents créés en base de données. Le système sert les documents demandé sur les pages du site tandis que la base de données sert de persistence.
+J'ai mis en place **Solr** sur Kozikaza pour afficher les documents créés en base de données. Le système sert les documents demandés sur les pages du site tandis que la base de données sert de persistence.
 
 ## Systèmes d'exploitation
 
