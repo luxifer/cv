@@ -29,7 +29,7 @@ module.exports = function(grunt) {
       },
       dist_js: {
         src: [
-          'bower_components/jquery/jquery.js',
+          'bower_components/jquery/dist/jquery.js',
           'bower_components/bootstrap/dist/js/bootstrap.js',
           'assets/js/app.js'
         ],
