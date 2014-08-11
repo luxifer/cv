@@ -7,15 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Florent viel <florent.viel69@gmail.com>",
-  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "http://github.com/luxifer/cv.git"
+  },
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-uglify": "~0.2.2",
-    "grunt-css": "~0.5.4",
-    "grunt-contrib-copy": "~0.4.1",
-    "grunt-contrib-less": "~0.8.2",
-    "grunt-contrib-watch": "~0.5.3"
+    "grunt": "~0.4",
+    "grunt-contrib-nodeunit": "~0.2",
+    "grunt-contrib-concat": "~0.3",
+    "grunt-contrib-uglify": "~0.2",
+    "grunt-css": "~0.5",
+    "grunt-contrib-copy": "~0.4",
+    "grunt-contrib-less": "~0.8",
+    "grunt-contrib-watch": "~0.5"
   }
 }

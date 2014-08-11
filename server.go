@@ -3,9 +3,9 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"github.com/codegangsta/martini"
-	"github.com/codegangsta/martini-contrib/binding"
-	"github.com/codegangsta/martini-contrib/render"
+	"github.com/go-martini/martini"
+	"github.com/martini-contrib/binding"
+	"github.com/martini-contrib/render"
 	"github.com/russross/blackfriday"
 	"github.com/sendgrid/sendgrid-go"
 	"html/template"
@@ -35,21 +35,21 @@ func main() {
 	})
 
 	r.Post("/contact", binding.Bind(Contact{}), func(contact Contact) (int, string) {
-		body := fmt.Sprintf("%s\n\nEnvoyé depuis http://florentviel.com", contact.Content)
+		body := fmt.Sprintf("%s\n\nEnvoyé depuis https://florentviel.com", contact.Content)
 		sg := sendgrid.NewSendGridClient(os.Getenv("SENDGRID_USER"), os.Getenv("SENDGRID_KEY"))
 		message := sendgrid.NewMail()
+
 		message.AddTo(os.Getenv("SENDGRID_EMAIL"))
-		message.AddSubject(contact.Object)
-		message.AddText(body)
-		message.AddFrom(contact.From)
+		message.AddToName("Florent Viel")
+		message.SetSubject(contact.Object)
+		message.SetText(body)
+		message.SetFrom(contact.From)
 
-		r := sg.Send(message)
-
-		if r == nil {
+		if r := sg.Send(message); r == nil {
 			return 200, "ok"
+		} else {
+			return 500, "ko"
 		}
-
-		return 500, "ko"
 	})
 
 	m.Action(r.Handle)

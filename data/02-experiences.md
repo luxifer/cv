@@ -1,12 +1,20 @@
 # Expériences
 
+## Développeur Freelance
+
+### Everywhere
+
+#### Juillet 2014 - Aujourd'hui
+
+Je travaille en freelance pour [Xotelia](http://www.xotelia.com/) principalement. Si vous avez besoin d'un devis, si vous avez un projet, n'hésitez pas à utiliser mon formulaire de contact. Je ne fais pas de sites vitrine, je développe de grosses applications web, et principalement le **backend**.
+
 ## Développeur PHP
 
 ### Xotelia - Grenoble (38)
 
-#### Mai 2014 - Aujourd'hui
+#### Mai 2014 - Juillet 2014
 
-Je travaille sur un outil de gestion de canaux de ventes pour les petits et moyens établissements ayant des chambres à louer. [Xotelia](http://www.xotelia.com/)
+Je travaillais sur un outil de gestion de canaux de ventes pour les petits et moyens établissements ayant des chambres à louer. [Xotelia](http://www.xotelia.com/)
 
 ## Lead Developer Symfony 2
 
@@ -14,13 +22,13 @@ Je travaille sur un outil de gestion de canaux de ventes pour les petits et moye
 
 #### Août 2011 - Avril 2014
 
-Je suis développeur dans cette agence web lyonnaise depuis août 2011. Je suis en charge du développement du site [Kozikaza.com](http://www.kozikaza.com). Je suis en permanence en contact avec mes clients pour planifier et développer les nouvelles évolutions continuelles du site.
+J'étais développeur dans cette agence web lyonnaise de août 2011 à mai 2014. J'étais en charge du développement du site [Kozikaza.com](http://www.kozikaza.com). J'étais en permanence en contact avec mes clients pour planifier et développer les nouvelles évolutions continuelles du site.
 
-Je fais aussi un peu de R&amp;D et je travaille sur le projet open-source [FiftySent](http://wanadev.github.com/fiftysent/). Je contribue aussi aux projets Open-Source que j'utilise pour mes développements. J'ai aussi mis au point un petit outil de contrôle des versions des dépendences d'un projet pour vérifier qu'elles soient bien à jour [DependenSees](https://github.com/luxifer/dependensees).
+Je faisais aussi un peu de R&amp;D et j'ai travaillé sur le projet open-source [FiftySent](http://wanadev.github.com/fiftysent/). J'ai aussi contribué aux projets Open-Source que j'utilise pour mes développements. J'ai aussi mis au point un petit outil de contrôle des versions des dépendences d'un projet pour vérifier qu'elles soient bien à jour [DependenSees](https://github.com/luxifer/dependensees).
 
-J'utilise **solr** comme moteur de recherche, **rabbitmq** comme protocole de messagerie et **redis** comme système de cache.
+J'utilisais **solr** comme moteur de recherche, **rabbitmq** comme protocole de messagerie et **redis** comme système de cache.
 
-Je fais beaucoup d'**administration système** pour Kozikaza, le site est hébergé chez un prestataire externe, mais je m'occupe de faire les mises en production régulières, de contrôler que le site tourne bien, de corriger les erreurs éventuelles.
+Je faisais beaucoup d'**administration système** pour Kozikaza, le site est hébergé chez un prestataire externe, mais je m'occupais de faire les mises en production régulières, de contrôler que le site tourne bien, de corriger les erreurs éventuelles.
 
 ## Auto Entrepreneur
 
