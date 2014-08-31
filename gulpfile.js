@@ -15,16 +15,14 @@ gulp.task('js', function() {
         .pipe(gulp.dest('public/js'));
 });
 
-gulp.task('less', function(callback) {
-    gulp.src('assets/less/app.less')
+gulp.task('less', function() {
+    return gulp.src('assets/less/app.less')
         .pipe(less())
         .pipe(gulp.dest('assets/css'));
-
-    callback();
 });
 
 gulp.task('css', ['less'], function() {
-    gulp.src([
+    return gulp.src([
             'bower_components/bootstrap/dist/css/bootstrap.css',
             'bower_components/font-awesome/css/font-awesome.css',
             'assets/css/app.css'
