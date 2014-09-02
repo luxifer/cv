@@ -3,5 +3,5 @@ node_modules
 assets
 package.json
 bower.json
-Gruntfile.js
+gulpfile.js
 .git
