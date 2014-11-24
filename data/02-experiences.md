@@ -1,12 +1,20 @@
 # Expériences
 
+## Développeur Backend
+
+### Vannes
+
+#### Novembre 2014 - Aujourd'hui
+
+Je travaille actuellement chez Xotelia, sur un gestionnaire de canaux de ente en SaaS pour les petits et moyens propriétaires. Je travaille aussi pour Bis-Electric, un magasin en ligne de vente de matériel électrique pour professionnels et particuliers, sur la refonte du site ainsi que la maintenance.
+
 ## Développeur Freelance
 
 ### Everywhere
 
-#### Juillet 2014 - Aujourd'hui
+#### Juillet 2014 - Octobre 2014
 
-Je travaille en freelance pour [Xotelia](http://www.xotelia.com/) principalement. Si vous avez besoin d'un devis, si vous avez un projet, n'hésitez pas à utiliser mon formulaire de contact. Je ne fais pas de sites vitrine, je développe de grosses applications web, et principalement le **backend**.
+Je travaillais en freelance pour [Xotelia](http://www.xotelia.com/) principalement. Si vous avez besoin d'un devis, si vous avez un projet, n'hésitez pas à utiliser mon formulaire de contact. Je ne fais pas de sites vitrine, je développe de grosses applications web, et principalement le **backend**.
 
 ## Développeur PHP
 

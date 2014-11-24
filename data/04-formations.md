@@ -1,5 +1,11 @@
 # Formations
 
+## Solr
+
+### Antibes
+
+J'ai participé a une formation sur le moteur de recherche **Solr**, basé sur Lucene. Au cours de cette formation, j'ai étudié le fonctionnement de ce moteur, les mécanismes d'indexation, de requêtes et d'analyse de texte.
+
 ## DUT Informatique
 
 ### Université Lyon 1
