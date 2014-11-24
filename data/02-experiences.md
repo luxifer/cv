@@ -2,7 +2,7 @@
 
 ## Développeur Backend
 
-### Vannes
+### Xotelia - Vannes (56) en télétravail
 
 #### Novembre 2014 - Aujourd'hui
 
