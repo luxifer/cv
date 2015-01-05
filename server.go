@@ -3,16 +3,23 @@ package main
 import (
 	"bytes"
 	"fmt"
+	"html/template"
+	"io/ioutil"
+	"os"
+	"path/filepath"
+	"time"
+
 	"github.com/go-martini/martini"
 	"github.com/martini-contrib/binding"
 	"github.com/martini-contrib/render"
 	"github.com/russross/blackfriday"
 	"github.com/sendgrid/sendgrid-go"
-	"html/template"
-	"io/ioutil"
-	"os"
-	"path/filepath"
 )
+
+type Body struct {
+	Text template.HTML
+	Year int
+}
 
 func main() {
 	m := martini.New()
@@ -31,7 +38,13 @@ func main() {
 	r := martini.NewRouter()
 
 	r.Get("/", func(r render.Render) {
-		r.HTML(200, "index", template.HTML(markdown))
+		md := template.HTML(markdown)
+		y := time.Now().Year()
+
+		r.HTML(200, "index", Body{
+			Text: md,
+			Year: y,
+		})
 	})
 
 	r.Post("/contact", binding.Bind(Contact{}), func(contact Contact) (int, string) {
