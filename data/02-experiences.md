@@ -8,6 +8,8 @@
 
 Je travaille actuellement chez Xotelia, sur un gestionnaire de canaux de ente en SaaS pour les petits et moyens propriétaires. Je travaille aussi pour Bis-Electric, un magasin en ligne de vente de matériel électrique pour professionnels et particuliers, sur la refonte du site ainsi que la maintenance.
 
+Mon travail est divisé en trois projets, un dashboard d'administration pour les clients, un logiciel de lecture de mail et d'extraction de données, et un logiciel de synchronisation de données sur différentes plateformes via des APIs.
+
 ## Développeur Freelance
 
 ### Everywhere

@@ -2,9 +2,9 @@
 
 ## Web
 
-### PHP
+### PHP & Hack
 
-J'ai commencé avec le framework **Symfony** 1.4, depuis j'utilise principalement la version 2 de ce framework. Autant pour mes propres projets que pour les projets de mon travail. Je code uniquement en orienté objet, en utilisant principalement la composition. J'ai développé des API RESTful avec le microframework **Silex**, qui est basé sur les composants de Symfony.
+J'ai commencé avec le framework **Symfony** 1.4, depuis j'utilise principalement la version 2 de ce framework. Autant pour mes propres projets que pour les projets de mon travail. Je code uniquement en orienté objet, en utilisant principalement la composition. J'ai développé des API RESTful avec le microframework **Silex**, qui est basé sur les composants de Symfony. J'ai aussi transformé un framework maison en Symfony. Je fais aussi du **Hack** (voir [ici](http://hacklang.org/)) durant mon temps libre.
 
 ### HTML & CSS
 
@@ -12,7 +12,7 @@ L'intégration d'un design pour un site internet est dans mes cordes. Avec le re
 
 J'utilise dans beaucoup de projets le **bootstrap twitter**, qui permet d'avoir une bonne base pour structurer le CSS.
 
-Pour gérer les dépendences frontent de mon projet j'utilise **bower** ainsi que **grunt** pour le workflow de développement.
+Pour gérer les dépendences frontent de mon projet j'utilise **bower** ainsi que **grunt** ou **gulp** pour le workflow de développement.
 
 ### Javascript
 
@@ -28,7 +28,13 @@ Développement d'un url-shortener en python avec le framework **django** disponi
 
 ### Golang
 
-Je suis plutôt novice dans ce langage, j'ai tout de même développé un worker qui s'occupe de générer les vignettes d'images qui sont postées sur le site Kozikaza. Je suis aussi en train de développer un système d'intégration continue qui exploite la puissance de **docker**. Pour cela j'utilise le microframework **martini**.
+Je suis plutôt novice dans ce langage, j'ai tout de même développé un worker qui s'occupe de générer les vignettes d'images qui sont postées sur le site Kozikaza. Je suis aussi en train de développer un système d'intégration continue qui exploite la puissance de **docker**. Pour cela j'utilise le microframework **martini**. Je suis actuellement en train de développer mon propre lecteur RSS.
+
+## Asynchrone
+
+### RabbitMq
+
+J'ai utilisé ce système de messagerie asynchrone sur Kozikaza pour la gestion de l'envoi des mails et le redimensinnement d'image via un worker que j'ai écrit en **golang**. Actuellement je l'utilise dans un projet de lecture de mail et d'extraction de données, ainsi que dans un projet de synchronisation de données vers différentes plateforme.
 
 ## Base de données
 
