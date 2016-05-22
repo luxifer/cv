@@ -8,11 +8,10 @@ gulp.task('js', function() {
     gulp.src([
             'bower_components/jquery/dist/jquery.js',
             'bower_components/bootstrap/dist/js/bootstrap.js',
-            'assets/js/app.js'
         ])
         .pipe(concat('cv.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('public/js'));
+        .pipe(gulp.dest('static/js'));
 });
 
 gulp.task('less', function() {
@@ -25,16 +24,23 @@ gulp.task('css', ['less'], function() {
     return gulp.src([
             'bower_components/bootstrap/dist/css/bootstrap.css',
             'bower_components/font-awesome/css/font-awesome.css',
+            'bower_components/flag-icon-css/css/flag-icon.css',
             'assets/css/app.css'
         ])
         .pipe(concat('cv.min.css'))
         .pipe(cssmin())
-        .pipe(gulp.dest('public/css'));
+        .pipe(gulp.dest('static/css'));
 });
 
 gulp.task('data', function() {
     gulp.src('bower_components/font-awesome/fonts/*')
-        .pipe(gulp.dest('public/fonts'));
+        .pipe(gulp.dest('static/fonts'));
+
+    gulp.src([
+        'bower_components/flag-icon-css/flags/1x1/fr.svg',
+        'bower_components/flag-icon-css/flags/1x1/gb.svg'
+    ])
+    .pipe(gulp.dest('static/flags/1x1/'))
 });
 
 gulp.task('default', ['js', 'less', 'css', 'data'], function() {

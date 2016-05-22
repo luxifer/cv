@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-4 col-sm-4">
+      <div role="complementary" itemscope itemtype="http://data-vocabulary.org/Person">
+        <div id="photo">
+          <img src="https://secure.gravatar.com/avatar/7f67a868fada94118e32881c2854a74c?s=360" alt="Photo de Florent Viel" itemprop="photo" /><br />
+          <img src="images/base.png" />
+        </div>
+        <div>
+          <h3 itemprop="name" id="fullname">{{ .Site.Params.author }}</h3>
+        </div>
+        <div id="bio">
+          <p>
+            {{ range first 1 (where .Data.Pages "Section" "about") }}
+              {{ .Content }}
+            {{ end }}
+          </p>
+        </div>
+        <div id="social">
+          <div class="list-group">
+            <a class="list-group-item" href="http://twitter.com/florent_viel" target="_blank"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
+            <a class="list-group-item" href="http://facebook.com/luxifer666" target="_blank"><i class="fa fa-fw fa-facebook"></i> Facebook</a>
+            <a class="list-group-item" href="http://www.linkedin.com/in/florentviel" target="_blank"><i class="fa fa-fw fa-linkedin"></i> Linked'In</a>
+            <a class="list-group-item" href="https://plus.google.com/+FlorentViel/posts" rel="author" target="_blank"><i class="fa fa-fw fa-google-plus"></i> Google+</a>
+            <a class="list-group-item" href="mailto:{{ .Site.Params.email }}"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+            <a class="list-group-item" href="https://github.com/luxifer" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a>
+            <a class="list-group-item" href="http://blog.luxifer.fr" itemprop="url" target="_blank"><i class="fa fa-fw fa-link"></i> Blog</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-8 col-sm-8">

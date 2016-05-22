@@ -1,0 +1,8 @@
+{{ partial "head.html" . }}
+{{ partial "sidebar.html" . }}
+{{ partial "langs.html" . }}
+{{ range .Data.Pages }}
+    {{ .Content }}
+{{ end }}
+{{ partial "footer.html" . }}
+{{ partial "foot.html" . }}
