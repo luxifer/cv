@@ -6,9 +6,9 @@
 
 #### November 2014 - Today
 
-Je travaille actuellement chez Xotelia, sur un gestionnaire de canaux de ente en SaaS pour les petits et moyens propriétaires. Je travaille aussi pour Bis-Electric, un magasin en ligne de vente de matériel électrique pour professionnels et particuliers, sur la refonte du site ainsi que la maintenance.
+I work at Xotelia as a lead developer. It's a channel manager for small owners.
 
-Mon travail est divisé en trois projets, un dashboard d'administration pour les clients, un logiciel de lecture de mail et d'extraction de données, et un logiciel de synchronisation de données sur différentes plateformes via des APIs.
+My day job concist of project management for a small part. I lead a team of 3 developers and have to distribute the work to be done. I work on the main back office of the solution and also on the services we built to gather bookings from the different travel agencies or to achieve specific stuff such as billing management.
 
 ## Freelance developer
 
