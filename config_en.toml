@@ -1,0 +1,14 @@
+layoutdir = "layouts"
+builddrafts = false
+baseurl = "https://florentviel.com"
+canonifyurls = true
+googleAnalytics = "UA-32451634-1"
+Title = "Florent Viel's resume"
+contentdir = "content/en"
+publishdir = "public/en"
+
+[params]
+    author = "Florent Viel"
+    copyright = "2016"
+    email = "contact@florentviel.com"
+    locale = "en"

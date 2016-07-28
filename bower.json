@@ -1,8 +1,8 @@
 {
-  "name": "cv",
+  "name": "resume",
   "version": "0.0.1",
   "authors": [
-    "Florent Viel <fviel@wanadev.fr>"
+    "Florent Viel <me@florent.viel.com>"
   ],
   "license": "MIT",
   "homepage": "http://florentviel.com",
@@ -17,6 +17,7 @@
   "dependencies": {
     "bootstrap": "*",
     "font-awesome": "*",
-    "jquery": "~2.1.1"
+    "jquery": "~2.1.1",
+    "flag-icon-css": "~2.3.1"
   }
 }
