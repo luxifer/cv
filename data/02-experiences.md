@@ -1,6 +1,6 @@
 # Expériences
 
-## Développeur Backend
+## CTO
 
 ### Xotelia - Vannes (56) en télétravail
 
