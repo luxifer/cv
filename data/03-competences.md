@@ -16,7 +16,7 @@ Pour gérer les dépendences frontent de mon projet j'utilise **bower** ainsi qu
 
 ### Javascript
 
-Maitrise de **jQuery** et jQuery UI. Quelques compétences en **javascript** pur. J'aime bien comprendre comment faire les choses en javascript, tout en ne réinventant pas la roue et en utilisant assez souvent des plugins jquery.
+Maitrise de **jQuery** et jQuery UI. Quelques compétences en **javascript** pur. J'aime bien comprendre comment faire les choses en javascript, tout en ne réinventant pas la roue et en utilisant assez souvent des plugins jquery. J'utilise **React** avec **webpack** pour développer des composants frontend.
 
 ### CMS
 
@@ -44,7 +44,7 @@ Je connais les principales bases de données avec des compétences sur **MySQL**
 
 ### NoSQL
 
-Utilisation de la base de données MongoDB.
+Utilisation de la base de données MongoDB. J'ai déployé un cluster en *sharding* comme backend principal pour un des projets de Xotelia.
 
 ## Moteurs de recherche
 
@@ -62,11 +62,19 @@ Maitrise des distributions basées sur **Debian** / Ubuntu, **Archlinux** et Fed
 
 Quelques connaissances sur Windows server.
 
+### Cloud
+
+J'utilise le cloud Azure de Microsoft à Xotelia pour le stockage des images, des assets et de certaines données client. J'ai aussi un cluster ELK (Elasticsearch Logstash Kibana) pour centraliser et analyser les logs de production.
+
 ## Développement en équipe
 
 ### Intégration continue
 
 J'utilise couramment **Jenkins** CI pour contrôler la qualité du code et exécuter des batteries de test sur différents environnements au sein de mon entreprise. Pour mes projets personnels j'utilise **Travis** CI. Jenkins me sert également à déployer automatiquement mes projets. Pour la mise en production de mes projets j'utilise **Capifony**.
+
+J'ai développé un projet en **Go** qui permet de déployer un projet avec **Ansible**, lancé depuis un évènement de déploiement GitHub.
+
+J'utilise aussi **Terraform** pour décrire l'infrastructure nécessaire pour un projet en code, la déployer et l'automatiser.
 
 ### Gestion de projet
 
