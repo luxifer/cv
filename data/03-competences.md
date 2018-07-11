@@ -2,9 +2,9 @@
 
 ## Web
 
-### PHP & Hack
+### PHP
 
-J'ai commencé avec le framework **Symfony** 1.4, depuis j'utilise principalement la version 2 de ce framework. Autant pour mes propres projets que pour les projets de mon travail. Je code uniquement en orienté objet, en utilisant principalement la composition. J'ai développé des API RESTful avec le microframework **Silex**, qui est basé sur les composants de Symfony. J'ai aussi transformé un framework maison en Symfony. Je fais aussi du **Hack** (voir [ici](http://hacklang.org/)) durant mon temps libre.
+J'ai commencé avec le framework **Symfony** 1.4, depuis j'utilise principalement la version 2 de ce framework. Autant pour mes propres projets que pour les projets de mon travail. Je code uniquement en orienté objet, en utilisant principalement la composition. J'ai développé des API RESTful avec le microframework **Silex**, qui est basé sur les composants de Symfony. J'ai aussi transformé un framework maison en Symfony. Mes derniers projets Symfony sont basé sur les version 3.4 et 4.0.
 
 ### HTML & CSS
 
@@ -24,11 +24,15 @@ Quelques compétences sur **Wordpress**. Je suis autodidacte sur Drupal.
 
 ### Python
 
-Développement d'un url-shortener en python avec le framework **django** disponible sur [github](https://github.com/luxifer/UrliZr). Je fais beaucoup de scripts pour de l'administration serveur.
+Développement d'un url-shortener en python avec le framework **django** disponible sur [github](https://github.com/luxifer/UrliZr).
 
 ### Golang
 
-Je suis plutôt novice dans ce langage, j'ai tout de même développé un worker qui s'occupe de générer les vignettes d'images qui sont postées sur le site Kozikaza. Je suis aussi en train de développer un système d'intégration continue qui exploite la puissance de **docker**. Pour cela j'utilise le microframework **martini**. Je suis actuellement en train de développer mon propre lecteur RSS.
+Je suis plutôt novice dans ce langage, j'ai tout de même développé un worker qui s'occupe de générer les vignettes d'images qui sont postées sur le site Kozikaza. Je suis aussi en train de développer un système d'intégration continue qui exploite la puissance de **docker**. Pour cela j'utilise le microframework **martini**.
+
+Développement d'une [plateforme de routing](https://github.com/luxifer/pingroll) de notifications basé sur un calendrier iCal. Pour celà j'ai implémenter un [parser](https://github.com/luxifer/ical) du format iCal basé sur la [RFC 5545](https://tools.ietf.org/html/rfc5545).
+
+Développement d'une [plateforme de déploiement](https://github.com/luxifer/deployer) continue basée sur l'API _Deployment_ de GitHub et **ansible**.
 
 ## Asynchrone
 
@@ -52,19 +56,23 @@ Utilisation de la base de données MongoDB. J'ai déployé un cluster en *shardi
 
 J'ai mis en place **Solr** sur Kozikaza pour afficher les documents créés en base de données. Le système sert les documents demandés sur les pages du site tandis que la base de données sert de persistence.
 
+### Elasticsearch
+
+Utilisation du moteur de recherche Elasticsearch dans la stack ELK pour la centralisation des logs. Tuning fin de la configuration du moteur suite a des problématiques de gros volumes (environ 1Go de logs par heure).
+
 ## Systèmes d'exploitation
 
 ### Linux
 
 Maitrise des distributions basées sur **Debian** / Ubuntu, **Archlinux** et Fedora / RedHat. Je fais beaucoup d'administration système sur debian pour le site Kozikaza. J'utilise de plus en plus **Docker** pour déployer mes applications, tester mes développements, ou mettre en place un environnement de développement.
 
-### Windows
-
-Quelques connaissances sur Windows server.
-
 ### Cloud
 
-J'utilise le cloud Azure de Microsoft à Xotelia pour le stockage des images, des assets et de certaines données client. J'ai aussi un cluster ELK (Elasticsearch Logstash Kibana) pour centraliser et analyser les logs de production.
+Utilisation cloud Azure de Microsoft à Xotelia pour le stockage des images, des assets et de certaines données client. J'ai aussi un cluster ELK (Elasticsearch Logstash Kibana) pour centraliser et analyser les logs de production.
+
+Utilisation des services AWS comme EC2, Route53, SES, S3, SQS et RDS pour la mise en production des clients chez Wizaplace.
+
+Utilisation de Kubernetes _managé_ chez Azure pour la mise en production de clients chez Wizaplace et pour notre tooling interne.
 
 ## Développement en équipe
 
