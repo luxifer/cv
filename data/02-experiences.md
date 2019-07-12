@@ -1,10 +1,18 @@
 # Expériences
 
+## Cyber Security developer
+
+### Sentryo - Lyon (69)
+
+#### Novembre 2018 - Aujourd'hui
+
+Recherche, conception et développement d'un produit d'analyse réseau et de détection d'attaque pour l'industrie. Principalement en **Go** et **PostgreSQL** pour la base de données.
+
 ## Backend developer R&D
 
 ### Wizaplace - Lyon (69)
 
-#### Mars 2017 - Aujourd'hui
+#### Mars 2017 - Novembre 2018
 
 Je travaille chez Wizaplace, éditeur d'une solution de marketplace en SaaS sur les fonctionnalités backend/API et la gestion de l'infrastructure.
 
