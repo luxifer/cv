@@ -2,26 +2,6 @@
 
 ## Web
 
-### PHP
-
-J'ai commencé avec le framework **Symfony** 1.4, depuis j'utilise principalement la version 2 de ce framework. Autant pour mes propres projets que pour les projets de mon travail. Je code uniquement en orienté objet, en utilisant principalement la composition. J'ai développé des API RESTful avec le microframework **Silex**, qui est basé sur les composants de Symfony. J'ai aussi transformé un framework maison en Symfony. Mes derniers projets Symfony sont basé sur les version 3.4 et 4.0.
-
-### HTML & CSS
-
-L'intégration d'un design pour un site internet est dans mes cordes. Avec le respect des normes **W3C**, en utilisant les dernières fonctionnalités et je suis capable de faire un design adaptable aux mobiles et tablettes.
-
-J'utilise dans beaucoup de projets le **bootstrap twitter**, qui permet d'avoir une bonne base pour structurer le CSS.
-
-Pour gérer les dépendences frontent de mon projet j'utilise **bower** ainsi que **grunt** ou **gulp** pour le workflow de développement.
-
-### Javascript
-
-Maitrise de **jQuery** et jQuery UI. Quelques compétences en **javascript** pur. J'aime bien comprendre comment faire les choses en javascript, tout en ne réinventant pas la roue et en utilisant assez souvent des plugins jquery. J'utilise **React** avec **webpack** pour développer des composants frontend.
-
-### CMS
-
-Quelques compétences sur **Wordpress**. Je suis autodidacte sur Drupal.
-
 ### Python
 
 Développement d'un url-shortener en python avec le framework **django** disponible sur [github](https://github.com/luxifer/UrliZr).
@@ -44,17 +24,9 @@ J'ai utilisé ce système de messagerie asynchrone sur Kozikaza pour la gestion 
 
 ### SQL
 
-Je connais les principales bases de données avec des compétences sur **MySQL** et PostgreSQL. Je fais beaucoup d'administration de base de données pour le site Kozikaza, qui est un site qui grandit très rapidement et pour lequel il faut constamment adapter le modèle de données.
-
-### NoSQL
-
-Utilisation de la base de données MongoDB. J'ai déployé un cluster en *sharding* comme backend principal pour un des projets de Xotelia.
+Je connais les principales bases de données avec des compétences sur **MySQL** et **PostgreSQL**. Je fais beaucoup d'administration de base de données pour le site Kozikaza, qui est un site qui grandit très rapidement et pour lequel il faut constamment adapter le modèle de données.
 
 ## Moteurs de recherche
-
-### Solr
-
-J'ai mis en place **Solr** sur Kozikaza pour afficher les documents créés en base de données. Le système sert les documents demandés sur les pages du site tandis que la base de données sert de persistence.
 
 ### Elasticsearch
 
