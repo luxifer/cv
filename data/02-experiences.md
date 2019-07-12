@@ -6,7 +6,7 @@
 
 #### Novembre 2018 - Aujourd'hui
 
-Recherche, conception et développement d'un produit d'analyse réseau et de détection d'attaque pour l'industrie. Principalement en **Go** et **PostgreSQL** pour la base de données.
+Recherche, conception et développement d'un produit d'analyse réseau et de détection d'attaque pour l'industrie. Principalement en **Go** et **PostgreSQL** pour la base de données. Distribution du produit dans un linux embarqué avec **Yocto**.
 
 ## Backend developer R&D
 
