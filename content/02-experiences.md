@@ -1,10 +1,18 @@
 # Expériences
 
+## Software Engineer @ Cisco
+
+### Cisco - Lyon (69)
+
+#### Novembre 2019 - aujourd'hui
+
+Suite au rachat de Sentryo par Cisco, développement d'un produit de cyber sécuritée pour l'industrie en **Go**. Leader technique d'une petite équipe de 5 personnes. Security advocate sur le produit, mon rôle consiste a m'assrer que tout ce qui est produit est conforme aux exigences de sécurité, proposer des solutions quand ce n'est pas le cas.
+
 ## Cyber Security developer
 
 ### Sentryo - Lyon (69)
 
-#### Novembre 2018 - Aujourd'hui
+#### Novembre 2018 - 2019
 
 Recherche, conception et développement d'un produit d'analyse réseau et de détection d'attaque pour l'industrie. Principalement en **Go** et **PostgreSQL** pour la base de données. Distribution du produit dans un linux embarqué avec **Yocto**.
 
