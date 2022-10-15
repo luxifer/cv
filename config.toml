@@ -1,14 +1,26 @@
 baseURL = 'https://florentviel.com/'
-languageCode = 'en-us'
-title = 'CV de Florent Viel'
+languageCode = 'fr-fr'
+
 theme = 'hyde'
+defaultContentLanguage = 'en'
 
 [Menus]
   main = [
-      {Name = "Github", URL = "https://github.com/luxifer/"},
+      {Name = "GitHub", URL = "https://github.com/luxifer/"},
       {Name = "LinkedIn", URL = "https://www.linkedin.com/in/florentviel/"},
       {Name = "Contact", URL = "mailto:contact@florentviel.com"}
   ]
 
-[params]
-  description = "Je suis développeur Go dans la cyber sécurité et le réseau chez Cisco."
+[languages]
+  [languages.fr]
+    title = 'CV de Florent Viel'
+    contentDir = 'content/fr'
+    languageName = 'Français 🇫🇷'
+    [languages.fr.params]
+      description = "Je suis développeur Go dans la cyber sécurité et le réseau chez Cisco."
+  [languages.en]
+    title = "Florent Viel's resume"
+    contentDir = 'content/en'
+     languageName = 'English 🇬🇧'
+    [languages.en.params]
+      description = "I'm a Go developer working in cyber security and networks at Cisco."
