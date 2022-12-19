@@ -8,7 +8,8 @@ defaultContentLanguage = 'en'
   main = [
       {Name = "GitHub", URL = "https://github.com/luxifer/"},
       {Name = "LinkedIn", URL = "https://www.linkedin.com/in/florentviel/"},
-      {Name = "Contact", URL = "mailto:contact@florentviel.com"}
+      {Name = "Contact", URL = "mailto:contact@florentviel.com"},
+      {Name = "Pleroma", URL = "https://social.luxiferapp.com/luxifer"}
   ]
 
 [languages]
