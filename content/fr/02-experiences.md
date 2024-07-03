@@ -1,10 +1,18 @@
 # Expériences
 
+## Tech Lead @ Scaleway
+
+### Scaleway - Paris (75)
+
+#### Avril 2023 - Aujourd'hui
+
+Développement d'un Secret Manager et d'un Key Manager en **Go** pour l'offre cloud de Scaleway. Participation à la guilde tech lead pour la rédactions des bonnes pratiques de dev et d'architecture. Référent sur la partie cryptographie et mise en place des bonnes pratiques.
+
 ## Software Engineer @ Cisco
 
 ### Cisco - Lyon (69)
 
-#### Novembre 2019 - aujourd'hui
+#### Novembre 2019 - Avril 2023
 
 Suite au rachat de Sentryo par Cisco, développement d'un produit de cyber sécuritée pour l'industrie en **Go**. Leader technique d'une petite équipe de 5 personnes. Security advocate sur le produit, mon rôle consiste a m'assrer que tout ce qui est produit est conforme aux exigences de sécurité, proposer des solutions quand ce n'est pas le cas.
 
