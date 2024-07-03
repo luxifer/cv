@@ -1,10 +1,18 @@
 # Experiences
 
+## Tech Lead @ Scaleway
+
+### Scaleway - Paris (75)
+
+#### April 2023 - Today
+
+Development of a Secret Manager and a Key Manager in **Go** for the Scaleway cloud offer. Participant in the tech lead guild to write best practices for dev and architecture. Referent regarding all cryptographic uses at Scaleway.
+
 ## Software Engineer @ Cisco
 
 ### Cisco - Lyon (69)
 
-#### September 2019 - today
+#### September 2019 - April 2023
 
 Following Sentryo acquired by Cisco, conception of an Industrial Control System called Cyber Vision, written in **Go**. I'm **technical leader** of a 5 people team. The product is deployed in a **Kubernetes** cluster. I'm also security advocate in the team where my job consist of ensuring the product meets the security guidelines.
 
